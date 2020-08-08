@@ -37,19 +37,19 @@ namespace SiteContagem.Controllers
 
         public IActionResult Teste1()
         {
-            TempData["Mensagem1"] = "Mensagem 1";
+            TempData["Mensagem1"] = "Mensagem 1 ads";
             return View();
         }
 
         public IActionResult Teste2()
         {
-            TempData["Mensagem2"] = "Mensagem 2";
+            TempData["Mensagem2"] = "Mensagem 2 ads";
             return View();
         }
 
         public IActionResult Teste3()
         {
-            TempData["Mensagem3"] = "Mensagem 3";
+            TempData["Mensagem3"] = "Mensagem 3 ads";
             return View();
         }
 
